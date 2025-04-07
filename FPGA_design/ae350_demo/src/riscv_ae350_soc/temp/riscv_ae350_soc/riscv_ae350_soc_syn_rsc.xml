@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="RiscV_AE350_SOC_Top" Register="8251" Alu="220" Lut="5585" Bsram="12" T_Register="8251(8251)" T_Alu="220(220)" T_Lut="5585(5585)" T_Bsram="12(12)"/>

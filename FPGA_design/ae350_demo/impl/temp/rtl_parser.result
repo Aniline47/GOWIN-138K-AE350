@@ -1,0 +1,114 @@
+[
+ {
+  "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+  "InstLine" : 2,
+  "InstName" : "ae350_demo_top",
+  "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "ae350_demo_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+    "InstLine" : 85,
+    "InstName" : "u_Gowin_PLL_AE350",
+    "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/gowin_pll_ae350/gowin_pll_ae350.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL_AE350"
+   },
+   {
+    "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+    "InstLine" : 102,
+    "InstName" : "u_Gowin_PLL_DDR3",
+    "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/gowin_pll_ddr3/gowin_pll_ddr3.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL_DDR3"
+   },
+   {
+    "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+    "InstLine" : 123,
+    "InstName" : "u_key_debounce_ddr3",
+    "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/key_debounce.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "key_debounce"
+   },
+   {
+    "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+    "InstLine" : 134,
+    "InstName" : "u_key_debounce_ae350",
+    "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/key_debounce.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "key_debounce"
+   },
+   {
+    "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+    "InstLine" : 165,
+    "InstName" : "u_AHB_to_AHB_16_Bridge_Top",
+    "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ahb_to_ahb_16_bridge/ahb_to_ahb_16_bridge.v",
+    "ModuleLine" : 156,
+    "ModuleName" : "AHB_to_AHB_16_Bridge_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ahb_to_ahb_16_bridge/ahb_to_ahb_16_bridge.v",
+      "InstLine" : 189,
+      "InstName" : "u_AHB_to_AHB_16_Bridge",
+      "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ahb_to_ahb_16_bridge/ahb_to_ahb_16_bridge.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "~AHB_to_AHB_16_Bridge.AHB_to_AHB_16_Bridge_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+    "InstLine" : 183,
+    "InstName" : "u_key_debounce_ram",
+    "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/key_debounce.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "key_debounce"
+   },
+   {
+    "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+    "InstLine" : 191,
+    "InstName" : "u_key_wr_ram_test",
+    "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/key_wr_ram_test.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "key_wr_ram_test"
+   },
+   {
+    "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+    "InstLine" : 208,
+    "InstName" : "u_gw_ahb_ram_slave_1",
+    "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/gw_ahb_ram.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "gw_ahb_ram",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/gw_ahb_ram.v",
+      "InstLine" : 282,
+      "InstName" : "u_Gowin_DPB",
+      "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/gowin_dpb/gowin_dpb.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_DPB"
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+    "InstLine" : 234,
+    "InstName" : "u_RiscV_AE350_SOC_Top",
+    "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/riscv_ae350_soc/riscv_ae350_soc.v",
+    "ModuleLine" : 58361,
+    "ModuleName" : "RiscV_AE350_SOC_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/riscv_ae350_soc/riscv_ae350_soc.v",
+      "InstLine" : 58852,
+      "InstName" : "u_RiscV_AE350_SOC",
+      "ModuleFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/riscv_ae350_soc/riscv_ae350_soc.v",
+      "ModuleLine" : 18,
+      "ModuleName" : "RiscV_AE350_SOC"
+     }
+    ]
+   }
+  ]
+ }
+]

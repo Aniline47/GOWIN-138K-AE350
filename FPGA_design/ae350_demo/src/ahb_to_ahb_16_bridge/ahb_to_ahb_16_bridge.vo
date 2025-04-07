@@ -1,0 +1,372 @@
+//Copyright (C)2014-2025 Gowin Semiconductor Corporation.
+//All rights reserved.
+//File Title: Post-PnR Verilog Simulation Model file
+//Tool Version: V1.9.11.01 (64-bit)
+//Created Time: Sat Apr  5 20:09:02 2025
+
+`timescale 100 ps/100 ps
+module AHB_to_AHB_16_Bridge_Top(
+	ds1_hrdata,
+	ds1_hreadyout,
+	ds1_hresp,
+	hclk,
+	hresetn,
+	us_haddr,
+	us_hsel,
+	us_htrans,
+	us_hready,
+	ds1_hsel,
+	us_hrdata,
+	us_hreadyout,
+	us_hresp,
+	ds_hready
+);
+input [31:0] ds1_hrdata;
+input ds1_hreadyout;
+input ds1_hresp;
+input hclk;
+input hresetn;
+input [31:0] us_haddr;
+input us_hsel;
+input [1:0] us_htrans;
+input us_hready;
+output ds1_hsel;
+output [31:0] us_hrdata;
+output us_hreadyout;
+output us_hresp;
+output ds_hready;
+wire GND;
+wire VCC;
+wire [31:0] ds1_hrdata;
+wire ds1_hreadyout;
+wire ds1_hresp;
+wire ds1_hsel;
+wire ds_hready;
+wire hclk;
+wire hresetn;
+wire [31:0] us_haddr;
+wire [31:0] us_hrdata;
+wire us_hready;
+wire us_hreadyout;
+wire us_hresp;
+wire us_hsel;
+wire [1:0] us_htrans;
+wire \u_AHB_to_AHB_16_Bridge/n52_5 ;
+wire \u_AHB_to_AHB_16_Bridge/n53_5 ;
+wire \u_AHB_to_AHB_16_Bridge/ds1_hsel_d_4 ;
+wire \u_AHB_to_AHB_16_Bridge/ds1_hsel_d_5 ;
+wire \u_AHB_to_AHB_16_Bridge/ds1_hsel_d_6 ;
+wire \u_AHB_to_AHB_16_Bridge/n52_6 ;
+wire \u_AHB_to_AHB_16_Bridge/n53_6 ;
+wire \u_AHB_to_AHB_16_Bridge/default_hresp ;
+wire \u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ;
+wire \u_AHB_to_AHB_16_Bridge/default_hreadyout ;
+wire \u_AHB_to_AHB_16_Bridge/n59_6 ;
+VCC VCC_cZ (
+  .V(VCC)
+);
+GND GND_cZ (
+  .G(GND)
+);
+GSR GSR (
+	.GSRI(VCC)
+);
+OBUF gowin_buf_0 (
+	.I(us_hreadyout),
+	.O(ds_hready)
+);
+LUT4 \u_AHB_to_AHB_16_Bridge/ds1_hsel_d_s  (
+	.I0(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d_4 ),
+	.I1(us_hready),
+	.I2(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d_5 ),
+	.I3(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d_6 ),
+	.F(ds1_hsel)
+);
+defparam \u_AHB_to_AHB_16_Bridge/ds1_hsel_d_s .INIT=16'h8000;
+LUT3 \u_AHB_to_AHB_16_Bridge/ds_hready_d_s  (
+	.I0(\u_AHB_to_AHB_16_Bridge/default_hreadyout ),
+	.I1(ds1_hreadyout),
+	.I2(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hreadyout)
+);
+defparam \u_AHB_to_AHB_16_Bridge/ds_hready_d_s .INIT=8'hCA;
+LUT3 \u_AHB_to_AHB_16_Bridge/us_hresp_d_s  (
+	.I0(\u_AHB_to_AHB_16_Bridge/default_hresp ),
+	.I1(ds1_hresp),
+	.I2(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hresp)
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hresp_d_s .INIT=8'hCA;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_0_s  (
+	.I0(ds1_hrdata[0]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[0])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_0_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_1_s  (
+	.I0(ds1_hrdata[1]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[1])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_1_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_2_s  (
+	.I0(ds1_hrdata[2]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[2])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_2_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_3_s  (
+	.I0(ds1_hrdata[3]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[3])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_3_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_4_s  (
+	.I0(ds1_hrdata[4]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[4])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_4_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_5_s  (
+	.I0(ds1_hrdata[5]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[5])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_5_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_6_s  (
+	.I0(ds1_hrdata[6]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[6])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_6_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_7_s  (
+	.I0(ds1_hrdata[7]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[7])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_7_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_8_s  (
+	.I0(ds1_hrdata[8]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[8])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_8_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_9_s  (
+	.I0(ds1_hrdata[9]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[9])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_9_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_10_s  (
+	.I0(ds1_hrdata[10]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[10])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_10_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_11_s  (
+	.I0(ds1_hrdata[11]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[11])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_11_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_12_s  (
+	.I0(ds1_hrdata[12]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[12])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_12_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_13_s  (
+	.I0(ds1_hrdata[13]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[13])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_13_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_14_s  (
+	.I0(ds1_hrdata[14]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[14])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_14_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_15_s  (
+	.I0(ds1_hrdata[15]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[15])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_15_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_16_s  (
+	.I0(ds1_hrdata[16]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[16])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_16_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_17_s  (
+	.I0(ds1_hrdata[17]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[17])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_17_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_18_s  (
+	.I0(ds1_hrdata[18]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[18])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_18_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_19_s  (
+	.I0(ds1_hrdata[19]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[19])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_19_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_20_s  (
+	.I0(ds1_hrdata[20]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[20])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_20_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_21_s  (
+	.I0(ds1_hrdata[21]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[21])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_21_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_22_s  (
+	.I0(ds1_hrdata[22]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[22])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_22_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_23_s  (
+	.I0(ds1_hrdata[23]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[23])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_23_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_24_s  (
+	.I0(ds1_hrdata[24]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[24])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_24_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_25_s  (
+	.I0(ds1_hrdata[25]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[25])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_25_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_26_s  (
+	.I0(ds1_hrdata[26]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[26])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_26_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_27_s  (
+	.I0(ds1_hrdata[27]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[27])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_27_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_28_s  (
+	.I0(ds1_hrdata[28]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[28])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_28_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_29_s  (
+	.I0(ds1_hrdata[29]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[29])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_29_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_30_s  (
+	.I0(ds1_hrdata[30]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[30])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_30_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/us_hrdata_d_31_s  (
+	.I0(ds1_hrdata[31]),
+	.I1(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.F(us_hrdata[31])
+);
+defparam \u_AHB_to_AHB_16_Bridge/us_hrdata_d_31_s .INIT=4'hB;
+LUT2 \u_AHB_to_AHB_16_Bridge/n52_s1  (
+	.I0(ds1_hsel),
+	.I1(\u_AHB_to_AHB_16_Bridge/n52_6 ),
+	.F(\u_AHB_to_AHB_16_Bridge/n52_5 )
+);
+defparam \u_AHB_to_AHB_16_Bridge/n52_s1 .INIT=4'hB;
+LUT3 \u_AHB_to_AHB_16_Bridge/n53_s1  (
+	.I0(ds1_hsel),
+	.I1(\u_AHB_to_AHB_16_Bridge/n52_6 ),
+	.I2(\u_AHB_to_AHB_16_Bridge/n53_6 ),
+	.F(\u_AHB_to_AHB_16_Bridge/n53_5 )
+);
+defparam \u_AHB_to_AHB_16_Bridge/n53_s1 .INIT=8'hF4;
+LUT4 \u_AHB_to_AHB_16_Bridge/ds1_hsel_d_s0  (
+	.I0(us_hsel),
+	.I1(us_haddr[29]),
+	.I2(us_haddr[30]),
+	.I3(us_haddr[31]),
+	.F(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d_4 )
+);
+defparam \u_AHB_to_AHB_16_Bridge/ds1_hsel_d_s0 .INIT=16'h8000;
+LUT4 \u_AHB_to_AHB_16_Bridge/ds1_hsel_d_s1  (
+	.I0(us_htrans[0]),
+	.I1(us_htrans[1]),
+	.I2(us_haddr[24]),
+	.I3(us_haddr[23]),
+	.F(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d_5 )
+);
+defparam \u_AHB_to_AHB_16_Bridge/ds1_hsel_d_s1 .INIT=16'h0E00;
+LUT4 \u_AHB_to_AHB_16_Bridge/ds1_hsel_d_s2  (
+	.I0(us_haddr[25]),
+	.I1(us_haddr[26]),
+	.I2(us_haddr[28]),
+	.I3(us_haddr[27]),
+	.F(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d_6 )
+);
+defparam \u_AHB_to_AHB_16_Bridge/ds1_hsel_d_s2 .INIT=16'h0100;
+LUT4 \u_AHB_to_AHB_16_Bridge/n52_s2  (
+	.I0(us_htrans[1]),
+	.I1(us_hready),
+	.I2(us_hsel),
+	.I3(us_hreadyout),
+	.F(\u_AHB_to_AHB_16_Bridge/n52_6 )
+);
+defparam \u_AHB_to_AHB_16_Bridge/n52_s2 .INIT=16'h8000;
+LUT3 \u_AHB_to_AHB_16_Bridge/n53_s2  (
+	.I0(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 ),
+	.I1(\u_AHB_to_AHB_16_Bridge/default_hreadyout ),
+	.I2(\u_AHB_to_AHB_16_Bridge/default_hresp ),
+	.F(\u_AHB_to_AHB_16_Bridge/n53_6 )
+);
+defparam \u_AHB_to_AHB_16_Bridge/n53_s2 .INIT=8'h10;
+DFFCE \u_AHB_to_AHB_16_Bridge/default_hresp_s0  (
+	.D(\u_AHB_to_AHB_16_Bridge/n53_5 ),
+	.CLK(hclk),
+	.CE(VCC),
+	.CLEAR(\u_AHB_to_AHB_16_Bridge/n59_6 ),
+	.Q(\u_AHB_to_AHB_16_Bridge/default_hresp )
+);
+defparam \u_AHB_to_AHB_16_Bridge/default_hresp_s0 .INIT=1'b0;
+DFFCE \u_AHB_to_AHB_16_Bridge/ds1_hsel_d1_s0  (
+	.D(ds1_hsel),
+	.CLK(hclk),
+	.CE(us_hreadyout),
+	.CLEAR(\u_AHB_to_AHB_16_Bridge/n59_6 ),
+	.Q(\u_AHB_to_AHB_16_Bridge/ds1_hsel_d1 )
+);
+defparam \u_AHB_to_AHB_16_Bridge/ds1_hsel_d1_s0 .INIT=1'b0;
+DFFPE \u_AHB_to_AHB_16_Bridge/default_hreadyout_s0  (
+	.D(\u_AHB_to_AHB_16_Bridge/n52_5 ),
+	.CLK(hclk),
+	.CE(VCC),
+	.PRESET(\u_AHB_to_AHB_16_Bridge/n59_6 ),
+	.Q(\u_AHB_to_AHB_16_Bridge/default_hreadyout )
+);
+defparam \u_AHB_to_AHB_16_Bridge/default_hreadyout_s0 .INIT=1'b1;
+INV \u_AHB_to_AHB_16_Bridge/n59_s2  (
+	.I(hresetn),
+	.O(\u_AHB_to_AHB_16_Bridge/n59_6 )
+);
+endmodule

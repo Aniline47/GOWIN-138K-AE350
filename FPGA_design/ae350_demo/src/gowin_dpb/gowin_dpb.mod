@@ -1,0 +1,24 @@
+-series GW5AST
+-device GW5AST-138
+-device_version B
+-package PBGA484A
+-part_number GW5AST-LV138PG484AC1/I0
+
+
+-mod_name Gowin_DPB
+-file_name gowin_dpb
+-path E:/Gowin/Project_Contest/ae350_demo/src/gowin_dpb/
+-type RAM_DP
+-file_type vlg
+-bram_b true
+-dev_type GW5AST-138B
+-depth_0 128
+-depth_1 128
+-width_0 16
+-width_1 16
+-read_mode_0 bypass
+-read_mode_1 bypass
+-write_mode_0 normal
+-write_mode_1 normal
+-speed false
+-reset_mode sync

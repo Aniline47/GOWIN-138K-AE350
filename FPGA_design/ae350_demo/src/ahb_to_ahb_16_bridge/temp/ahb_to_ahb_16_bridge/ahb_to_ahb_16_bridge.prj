@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AST-138B" package="PBGA484A" speed="1" partNumber="GW5AST-LV138PG484AC1/I0"/>
+    <FileList>
+        <File path="E:/Gowin/Gowin_V1.9.11.01_x64/IDE/ipcore/AHB2AHB16Bridge/data/AHB_to_AHB_16_Bridge_Top.v" type="verilog"/>
+        <File path="E:/Gowin/Gowin_V1.9.11.01_x64/IDE/ipcore/AHB2AHB16Bridge/data/AHB_to_AHB_16_Bridge.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="enable_dsrm" value="1"/>
+        <Option type="include_path" value="E:/Gowin/Gowin_V1.9.11.01_x64/IDE/ipcore/AHB2AHB16Bridge/data"/>
+        <Option type="include_path" value="E:/Gowin/Project_Contest/ae350_demo/src/ahb_to_ahb_16_bridge/temp/ahb_to_ahb_16_bridge"/>
+        <Option type="output_file" value="ahb_to_ahb_16_bridge.vg"/>
+        <Option type="output_template" value="ahb_to_ahb_16_bridge_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="vccx" value="1.8"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

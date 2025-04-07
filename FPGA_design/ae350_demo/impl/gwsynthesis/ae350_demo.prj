@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AST-138B" package="PBGA484A" speed="1" partNumber="GW5AST-LV138PG484AC1/I0"/>
+    <FileList>
+        <File path="E:\Gowin\Project_Contest\GOWIN-138K-AE350\FPGA_design\ae350_demo\src\ae350_demo_ahb.v" type="verilog"/>
+        <File path="E:\Gowin\Project_Contest\GOWIN-138K-AE350\FPGA_design\ae350_demo\src\ahb_to_ahb_16_bridge\ahb_to_ahb_16_bridge.v" type="verilog"/>
+        <File path="E:\Gowin\Project_Contest\GOWIN-138K-AE350\FPGA_design\ae350_demo\src\gowin_dpb\gowin_dpb.v" type="verilog"/>
+        <File path="E:\Gowin\Project_Contest\GOWIN-138K-AE350\FPGA_design\ae350_demo\src\gowin_pll_ae350\gowin_pll_ae350.v" type="verilog"/>
+        <File path="E:\Gowin\Project_Contest\GOWIN-138K-AE350\FPGA_design\ae350_demo\src\gowin_pll_ddr3\gowin_pll_ddr3.v" type="verilog"/>
+        <File path="E:\Gowin\Project_Contest\GOWIN-138K-AE350\FPGA_design\ae350_demo\src\gw_ahb_ram.v" type="verilog"/>
+        <File path="E:\Gowin\Project_Contest\GOWIN-138K-AE350\FPGA_design\ae350_demo\src\key_debounce.v" type="verilog"/>
+        <File path="E:\Gowin\Project_Contest\GOWIN-138K-AE350\FPGA_design\ae350_demo\src\key_wr_ram_test.v" type="verilog"/>
+        <File path="E:\Gowin\Project_Contest\GOWIN-138K-AE350\FPGA_design\ae350_demo\src\riscv_ae350_soc\riscv_ae350_soc.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="E:\Gowin\Project_Contest\GOWIN-138K-AE350\FPGA_design\ae350_demo\impl\gwsynthesis\ae350_demo.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="ae350_demo_top"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

@@ -1,0 +1,164 @@
+22:35:59 **** Incremental Build of configuration Debug for project ae350_demo ****
+make all 
+正在构建文件： ../src/demo/cache/demo_cache.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/cache/demo_cache.d" -MT"src/demo/cache/demo_cache.d src/demo/cache/demo_cache.o" -o "src/demo/cache/demo_cache.o" "../src/demo/cache/demo_cache.c"
+已结束构建： ../src/demo/cache/demo_cache.c
+ 
+正在构建文件： ../src/demo/cache_lock/demo_cache_lock.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/cache_lock/demo_cache_lock.d" -MT"src/demo/cache_lock/demo_cache_lock.d src/demo/cache_lock/demo_cache_lock.o" -o "src/demo/cache_lock/demo_cache_lock.o" "../src/demo/cache_lock/demo_cache_lock.c"
+已结束构建： ../src/demo/cache_lock/demo_cache_lock.c
+ 
+正在构建文件： ../src/demo/ddr3/demo_ddr3.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/ddr3/demo_ddr3.d" -MT"src/demo/ddr3/demo_ddr3.d src/demo/ddr3/demo_ddr3.o" -o "src/demo/ddr3/demo_ddr3.o" "../src/demo/ddr3/demo_ddr3.c"
+已结束构建： ../src/demo/ddr3/demo_ddr3.c
+ 
+正在构建文件： ../src/demo/dsp/demo_dsp.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/dsp/demo_dsp.d" -MT"src/demo/dsp/demo_dsp.d src/demo/dsp/demo_dsp.o" -o "src/demo/dsp/demo_dsp.o" "../src/demo/dsp/demo_dsp.c"
+已结束构建： ../src/demo/dsp/demo_dsp.c
+ 
+正在构建文件： ../src/demo/gpio/demo_gpio.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/gpio/demo_gpio.d" -MT"src/demo/gpio/demo_gpio.d src/demo/gpio/demo_gpio.o" -o "src/demo/gpio/demo_gpio.o" "../src/demo/gpio/demo_gpio.c"
+已结束构建： ../src/demo/gpio/demo_gpio.c
+ 
+正在构建文件： ../src/demo/gpio_spi/gpio_spi.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/gpio_spi/gpio_spi.d" -MT"src/demo/gpio_spi/gpio_spi.d src/demo/gpio_spi/gpio_spi.o" -o "src/demo/gpio_spi/gpio_spi.o" "../src/demo/gpio_spi/gpio_spi.c"
+已结束构建： ../src/demo/gpio_spi/gpio_spi.c
+ 
+正在构建文件： ../src/demo/hsp/demo_hsp.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/hsp/demo_hsp.d" -MT"src/demo/hsp/demo_hsp.d src/demo/hsp/demo_hsp.o" -o "src/demo/hsp/demo_hsp.o" "../src/demo/hsp/demo_hsp.c"
+已结束构建： ../src/demo/hsp/demo_hsp.c
+ 
+正在构建文件： ../src/demo/i2c/demo_i2c.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/i2c/demo_i2c.d" -MT"src/demo/i2c/demo_i2c.d src/demo/i2c/demo_i2c.o" -o "src/demo/i2c/demo_i2c.o" "../src/demo/i2c/demo_i2c.c"
+已结束构建： ../src/demo/i2c/demo_i2c.c
+ 
+正在构建文件： ../src/demo/intr/demo_intr.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/intr/demo_intr.d" -MT"src/demo/intr/demo_intr.d src/demo/intr/demo_intr.o" -o "src/demo/intr/demo_intr.o" "../src/demo/intr/demo_intr.c"
+已结束构建： ../src/demo/intr/demo_intr.c
+ 
+正在构建文件： ../src/demo/led/demo_led.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/led/demo_led.d" -MT"src/demo/led/demo_led.d src/demo/led/demo_led.o" -o "src/demo/led/demo_led.o" "../src/demo/led/demo_led.c"
+已结束构建： ../src/demo/led/demo_led.c
+ 
+正在构建文件： ../src/demo/main.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/main.d" -MT"src/demo/main.d src/demo/main.o" -o "src/demo/main.o" "../src/demo/main.c"
+已结束构建： ../src/demo/main.c
+ 
+正在构建文件： ../src/demo/mm/demo_mm.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/mm/demo_mm.d" -MT"src/demo/mm/demo_mm.d src/demo/mm/demo_mm.o" -o "src/demo/mm/demo_mm.o" "../src/demo/mm/demo_mm.c"
+已结束构建： ../src/demo/mm/demo_mm.c
+ 
+正在构建文件： ../src/demo/pfm/demo_pfm.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/pfm/demo_pfm.d" -MT"src/demo/pfm/demo_pfm.d src/demo/pfm/demo_pfm.o" -o "src/demo/pfm/demo_pfm.o" "../src/demo/pfm/demo_pfm.c"
+已结束构建： ../src/demo/pfm/demo_pfm.c
+ 
+正在构建文件： ../src/demo/plic/demo_plic.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/plic/demo_plic.d" -MT"src/demo/plic/demo_plic.d src/demo/plic/demo_plic.o" -o "src/demo/plic/demo_plic.o" "../src/demo/plic/demo_plic.c"
+已结束构建： ../src/demo/plic/demo_plic.c
+ 
+正在构建文件： ../src/demo/plmt/demo_plmt.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/plmt/demo_plmt.d" -MT"src/demo/plmt/demo_plmt.d src/demo/plmt/demo_plmt.o" -o "src/demo/plmt/demo_plmt.o" "../src/demo/plmt/demo_plmt.c"
+已结束构建： ../src/demo/plmt/demo_plmt.c
+ 
+正在构建文件： ../src/demo/powerbrake/demo_powerbrake.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/powerbrake/demo_powerbrake.d" -MT"src/demo/powerbrake/demo_powerbrake.d src/demo/powerbrake/demo_powerbrake.o" -o "src/demo/powerbrake/demo_powerbrake.o" "../src/demo/powerbrake/demo_powerbrake.c"
+已结束构建： ../src/demo/powerbrake/demo_powerbrake.c
+ 
+正在构建文件： ../src/demo/printf/demo_printf.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/printf/demo_printf.d" -MT"src/demo/printf/demo_printf.d src/demo/printf/demo_printf.o" -o "src/demo/printf/demo_printf.o" "../src/demo/printf/demo_printf.c"
+已结束构建： ../src/demo/printf/demo_printf.c
+ 
+正在构建文件： ../src/demo/pwm/demo_pwm.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/pwm/demo_pwm.d" -MT"src/demo/pwm/demo_pwm.d src/demo/pwm/demo_pwm.o" -o "src/demo/pwm/demo_pwm.o" "../src/demo/pwm/demo_pwm.c"
+已结束构建： ../src/demo/pwm/demo_pwm.c
+ 
+正在构建文件： ../src/demo/ram/demo_ram.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/ram/demo_ram.d" -MT"src/demo/ram/demo_ram.d src/demo/ram/demo_ram.o" -o "src/demo/ram/demo_ram.o" "../src/demo/ram/demo_ram.c"
+已结束构建： ../src/demo/ram/demo_ram.c
+ 
+正在构建文件： ../src/demo/rtc/demo_rtc.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/rtc/demo_rtc.d" -MT"src/demo/rtc/demo_rtc.d src/demo/rtc/demo_rtc.o" -o "src/demo/rtc/demo_rtc.o" "../src/demo/rtc/demo_rtc.c"
+已结束构建： ../src/demo/rtc/demo_rtc.c
+ 
+正在构建文件： ../src/demo/scanf/demo_scanf.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/scanf/demo_scanf.d" -MT"src/demo/scanf/demo_scanf.d src/demo/scanf/demo_scanf.o" -o "src/demo/scanf/demo_scanf.o" "../src/demo/scanf/demo_scanf.c"
+已结束构建： ../src/demo/scanf/demo_scanf.c
+ 
+正在构建文件： ../src/demo/slaveport/demo_slaveport.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/slaveport/demo_slaveport.d" -MT"src/demo/slaveport/demo_slaveport.d src/demo/slaveport/demo_slaveport.o" -o "src/demo/slaveport/demo_slaveport.o" "../src/demo/slaveport/demo_slaveport.c"
+已结束构建： ../src/demo/slaveport/demo_slaveport.c
+ 
+正在构建文件： ../src/demo/spi/demo_spi.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/spi/demo_spi.d" -MT"src/demo/spi/demo_spi.d src/demo/spi/demo_spi.o" -o "src/demo/spi/demo_spi.o" "../src/demo/spi/demo_spi.c"
+已结束构建： ../src/demo/spi/demo_spi.c
+ 
+正在构建文件： ../src/demo/tft/demo_tft.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/tft/demo_tft.d" -MT"src/demo/tft/demo_tft.d src/demo/tft/demo_tft.o" -o "src/demo/tft/demo_tft.o" "../src/demo/tft/demo_tft.c"
+已结束构建： ../src/demo/tft/demo_tft.c
+ 
+正在构建文件： ../src/demo/uart/demo_uart.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/uart/demo_uart.d" -MT"src/demo/uart/demo_uart.d src/demo/uart/demo_uart.o" -o "src/demo/uart/demo_uart.o" "../src/demo/uart/demo_uart.c"
+已结束构建： ../src/demo/uart/demo_uart.c
+ 
+正在构建文件： ../src/demo/wdt_pit/demo_wdt_pit.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/wdt_pit/demo_wdt_pit.d" -MT"src/demo/wdt_pit/demo_wdt_pit.d src/demo/wdt_pit/demo_wdt_pit.o" -o "src/demo/wdt_pit/demo_wdt_pit.o" "../src/demo/wdt_pit/demo_wdt_pit.c"
+已结束构建： ../src/demo/wdt_pit/demo_wdt_pit.c
+ 
+正在构建文件： ../src/demo/wfi/demo_wfi.c
+正在调用： Andes C Compiler
+riscv32-elf-gcc -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/config" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/ae350" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/driver/include" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/bsp/lib" -I"/cygdrive/E/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/src/demo" -Og -mcmodel=medium -g3 -Wall -mcpu=a25 -ffunction-sections -fdata-sections -mext-dsp -c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -march=rv32imafdc -MMD -MP -MF"src/demo/wfi/demo_wfi.d" -MT"src/demo/wfi/demo_wfi.d src/demo/wfi/demo_wfi.o" -o "src/demo/wfi/demo_wfi.o" "../src/demo/wfi/demo_wfi.c"
+已结束构建： ../src/demo/wfi/demo_wfi.c
+ 
+正在构建目标： ae350_demo.adx
+正在调用： Andes C Linker
+riscv32-elf-gcc -Og -nostartfiles -static -mcmodel=medium -T"output/ae350-ddr.ld" -Wl,--gc-sections -mext-dsp -ldsp -lm -o "ae350_demo.adx" ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./src/bsp/ae350/ae350.o ./src/bsp/ae350/cache.o ./src/bsp/ae350/initfini.o ./src/bsp/ae350/interrupt.o ./src/bsp/ae350/loader.o ./src/bsp/ae350/reset.o ./src/bsp/ae350/spi_gpio_utils.o ./src/bsp/ae350/start.o ./src/bsp/ae350/trap.o  ./src/bsp/driver/ae350/dma_ae350.o ./src/bsp/driver/ae350/gpio_ae350.o ./src/bsp/driver/ae350/i2c_ae350.o ./src/bsp/driver/ae350/pit_ae350.o ./src/bsp/driver/ae350/pwm_ae350.o ./src/bsp/driver/ae350/rtc_ae350.o ./src/bsp/driver/ae350/spi_ae350.o ./src/bsp/driver/ae350/uart_ae350.o ./src/bsp/driver/ae350/wdt_ae350.o  ./src/bsp/lib/delay.o ./src/bsp/lib/mm.o ./src/bsp/lib/uart.o  ./src/demo/cache/demo_cache.o  ./src/demo/cache_lock/demo_cache_lock.o  ./src/demo/ddr3/demo_ddr3.o  ./src/demo/dsp/demo_dsp.o  ./src/demo/gpio/demo_gpio.o  ./src/demo/gpio_spi/gpio_spi.o  ./src/demo/hsp/demo_hsp.o  ./src/demo/i2c/demo_i2c.o  ./src/demo/intr/demo_intr.o  ./src/demo/led/demo_led.o  ./src/demo/main.o  ./src/demo/mm/demo_mm.o  ./src/demo/pfm/demo_pfm.o  ./src/demo/plic/demo_plic.o  ./src/demo/plmt/demo_plmt.o  ./src/demo/powerbrake/demo_powerbrake.o  ./src/demo/printf/demo_printf.o  ./src/demo/pwm/demo_pwm.o  ./src/demo/ram/demo_ram.o ./src/demo/ram/ram.o  ./src/demo/rtc/demo_rtc.o  ./src/demo/scanf/demo_scanf.o  ./src/demo/slaveport/demo_slaveport.o  ./src/demo/spi/demo_spi.o  ./src/demo/stubs/close.o ./src/demo/stubs/exit.o ./src/demo/stubs/fstat.o ./src/demo/stubs/isatty.o ./src/demo/stubs/lseek.o ./src/demo/stubs/read.o ./src/demo/stubs/sbrk.o ./src/demo/stubs/write.o ./src/demo/stubs/write_hex.o  ./src/demo/tft/demo_tft.o ./src/demo/tft/lcd.o ./src/demo/tft/lcd_init.o  ./src/demo/uart/demo_uart.o  ./src/demo/wdt_pit/demo_wdt_pit.o  ./src/demo/wfi/demo_wfi.o   -ldsp -lm
+已结束构建目标： ae350_demo.adx
+ 
+正在调用： NM (symbol listing)
+riscv32-elf-nm -n -l -C "ae350_demo.adx" > output/symbol.txt
+已结束构建： output/symbol.txt
+ 
+正在调用： Readelf (ELF info listing)
+riscv32-elf-readelf -a "ae350_demo.adx" > output/readelf.txt
+已结束构建： output/readelf.txt
+ 
+正在调用： Objdump (disassembly)
+riscv32-elf-objdump -x -d -C "ae350_demo.adx" > output/objdump.txt
+已结束构建： output/objdump.txt
+ 
+正在调用： Objcopy (object content copy)
+riscv32-elf-objcopy -S -O binary "ae350_demo.adx" output/ae350_demo.bin
+已结束构建： output/ae350_demo.bin
+ 
+正在调用： Size (section size listing)
+riscv32-elf-size  "ae350_demo.adx" | tee output/.PHONY.size
+   text	   code	 rodata	   data	    bss	    dec	    hex	filename
+  11794	  10894	    900	      0	    728	  12522	   30ea	ae350_demo.adx
+已结束构建： output/.PHONY.size
+ 

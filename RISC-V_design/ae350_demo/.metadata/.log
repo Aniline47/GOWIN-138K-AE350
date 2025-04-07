@@ -1,0 +1,224 @@
+!SESSION 2025-01-13 10:18:43.031 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh
+Framework arguments:  E:\Gowin\Project_Contest\RiscV_AE350_SOC_V1.2\ref_design\MCU_RefDesign\ae350_demo\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 E:\Gowin\Project_Contest\RiscV_AE350_SOC_V1.2\ref_design\MCU_RefDesign\ae350_demo\.project
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-01-13 10:20:05.657
+!MESSAGE Both 'com.andestech.ide.ldsag' and 'com.andestech.ide.ldsag.xtext' register a package for 'http:///ide.andestech.com.ldsag/ldsag.ecore'
+
+!ENTRY org.eclipse.ui 2 2 2025-01-13 10:20:08.450
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.binutils, page: org.eclipse.linuxtools.binutils.preferences)
+
+!ENTRY org.eclipse.ui 2 2 2025-01-13 10:20:08.451
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.gcov.core, page: org.eclipse.linuxtools.gcov.core.preferences.colors)
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-01-13 10:20:20.206
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.RepositoriesView' id and the 'Git Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-01-13 10:20:21.122
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.StagingView' id and the 'Git Staging' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-01-13 10:20:21.251
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.InteractiveRebaseView' id and the 'Git Interactive Rebase' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-01-13 10:20:21.253
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.CompareTreeView' id and the 'Git Tree Compare' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-01-13 10:20:21.254
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.ReflogView' id and the 'Git Reflog' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-01-13 10:20:58.535
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-01-13 10:20:58.538
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-01-13 10:20:58.539
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2025-01-13 16:37:35.107 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-01-13 16:38:08.240
+!MESSAGE Both 'com.andestech.ide.ldsag' and 'com.andestech.ide.ldsag.xtext' register a package for 'http:///ide.andestech.com.ldsag/ldsag.ecore'
+
+!ENTRY org.eclipse.core.resources 4 567 2025-01-13 16:38:08.626
+!MESSAGE 已复原工作空间，但是发生了一些问题。
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2025-01-13 16:38:08.626
+!MESSAGE 不能读取“RemoteSystemsTempFiles”的元数据。
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/RemoteSystemsTempFiles)[567]: java.lang.Exception: 缺少“RemoteSystemsTempFiles”的项目描述文件（.project）。此文件包含有关项目的重要信息。项目将在复原此文件之后才能正常工作。
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.getWorkspaceRoot(EcorePlugin.java:1149)
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.<clinit>(ExtensibleURIConverterImpl.java:393)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getURIConverter(ResourceSetImpl.java:499)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:369)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.getResource(ResourceHandler.java:285)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadResource(ResourceHandler.java:261)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadMostRecentModel(ResourceHandler.java:168)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:385)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:260)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:583)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:560)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at com.andestech.ide.deploy.AndesApplication.start(AndesApplication.java:103)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2025-01-13 16:38:08.627
+!MESSAGE 缺少“RemoteSystemsTempFiles”的项目描述文件（.project）。此文件包含有关项目的重要信息。项目将在复原此文件之后才能正常工作。
+!STACK 0
+java.lang.Exception: 缺少“RemoteSystemsTempFiles”的项目描述文件（.project）。此文件包含有关项目的重要信息。项目将在复原此文件之后才能正常工作。
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.getWorkspaceRoot(EcorePlugin.java:1149)
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.<clinit>(ExtensibleURIConverterImpl.java:393)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getURIConverter(ResourceSetImpl.java:499)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:369)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.getResource(ResourceHandler.java:285)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadResource(ResourceHandler.java:261)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadMostRecentModel(ResourceHandler.java:168)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:385)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:260)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:583)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:560)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at com.andestech.ide.deploy.AndesApplication.start(AndesApplication.java:103)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 2 2 2025-01-13 16:38:11.263
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.binutils, page: org.eclipse.linuxtools.binutils.preferences)
+
+!ENTRY org.eclipse.ui 2 2 2025-01-13 16:38:11.267
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.gcov.core, page: org.eclipse.linuxtools.gcov.core.preferences.colors)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-01-13 16:38:25.522
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-01-13 16:38:25.529
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-01-13 16:38:25.531
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2025-03-31 16:56:28.369 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-03-31 16:56:48.277
+!MESSAGE Both 'com.andestech.ide.ldsag' and 'com.andestech.ide.ldsag.xtext' register a package for 'http:///ide.andestech.com.ldsag/ldsag.ecore'
+
+!ENTRY org.eclipse.ui 2 2 2025-03-31 16:56:49.780
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.binutils, page: org.eclipse.linuxtools.binutils.preferences)
+
+!ENTRY org.eclipse.ui 2 2 2025-03-31 16:56:49.780
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.gcov.core, page: org.eclipse.linuxtools.gcov.core.preferences.colors)
+
+!ENTRY com.andestech.ide.deploy 4 4 2025-03-31 16:56:49.813
+!MESSAGE Detected some of followings in your system.
+
+cygwin1.dll
+cyglzma-5.dll
+cygiconv-2.dll
+cyggcc_s-1.dll
+cygz.dll
+cygncursesw-10.dll
+
+AndeSight may not work normally. Please remove them.
+C:\WINDOWS\cygwin1.dll
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-03-31 16:56:58.893
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-03-31 16:56:58.895
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-03-31 16:56:58.895
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

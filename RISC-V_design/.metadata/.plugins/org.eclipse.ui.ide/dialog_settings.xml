@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.andestech.ide.api.feature:2.0.0.202204210534"/>
+		<item value="com.andestech.ide.cdt.managedbuilder.feature:2.0.0.202204210534"/>
+		<item value="com.andestech.ide.dsf.profile.targetboard.feature:2.1.0.202204210534"/>
+		<item value="com.andestech.ide.dsf.rds.feature:2.1.0.202204210534"/>
+		<item value="com.andestech.ide.flash.realboard.feature:2.0.0.202204210534"/>
+		<item value="com.andestech.ide.launch.rds.feature:2.0.0.202204210534"/>
+		<item value="com.andestech.ide.ldsag.feature:3.0.0.202204210534"/>
+		<item value="com.andestech.ide.license.feature:5.0.0.202204210534"/>
+		<item value="com.andestech.ide.linuxtools.gcov.feature:2.1.0.202204210534"/>
+		<item value="com.andestech.ide.rds.feature:3.0.0.202204210534"/>
+		<item value="com.andestech.ide.script.feature:5.0.0.202204210534"/>
+		<item value="com.andestech.ide.tm.feature:2.0.0.202204210534"/>
+		<item value="com.andestech.ide.util.feature:2.0.0.202204210534"/>
+		<item value="com.andestech.ide.vep.rds.feature:2.0.0.202204210534"/>
+		<item value="org.eclipse.cdt.debug.gdbjtag:9.6.0.202204210534"/>
+		<item value="org.eclipse.cdt.gdb:9.6.0.201811241055"/>
+		<item value="org.eclipse.draw2d:3.10.100.201606061308"/>
+		<item value="org.eclipse.emf.common:2.15.0.v20180914-1817"/>
+		<item value="org.eclipse.emf.ecore:2.16.0.v20181124-0637"/>
+		<item value="org.eclipse.epp.mpc:1.7.3.v20181205-1546"/>
+		<item value="org.eclipse.gef:3.11.0.201606061308"/>
+		<item value="org.eclipse.help:2.2.400.v20181206-0815"/>
+		<item value="org.eclipse.platform:4.10.0.202204210534"/>
+		<item value="org.eclipse.rcp:4.10.0.202204210534"/>
+		<item value="org.eclipse.rse.core:4.5.100.201901312305"/>
+		<item value="org.eclipse.rse.dstore:4.5.100.201901312305"/>
+		<item value="org.eclipse.rse.ftp:4.5.100.201901312305"/>
+		<item value="org.eclipse.rse.local:4.5.100.201901312305"/>
+		<item value="org.eclipse.rse.ssh:4.5.100.201901312305"/>
+		<item value="org.eclipse.rse.telnet:4.5.100.201901312305"/>
+		<item value="org.eclipse.rse:4.5.100.201901312305"/>
+		<item value="org.eclipse.tm.terminal.control.feature:4.5.100.201901312305"/>
+		<item value="org.eclipse.tm.terminal.feature:4.5.100.201901312305"/>
+		<item value="org.eclipse.tm.terminal.view.feature:4.5.100.201901312305"/>
+		<item value="org.eclipse.tm.terminal.view.rse.feature:4.5.100.201901312305"/>
+		<item value="org.eclipse.userstorage:1.1.0.v20170526-1605"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="E:\Gowin\Project_Contest\TangMega-138KPro-example-main\TangMega-138KPro-example-main\ae350_customized_demo\workspace\ae350_demo"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

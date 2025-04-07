@@ -1,0 +1,49 @@
+{
+ "Device" : "GW5AST-138B",
+ "Files" : [
+  {
+   "Path" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ae350_demo_ahb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/ahb_to_ahb_16_bridge/ahb_to_ahb_16_bridge.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/gowin_dpb/gowin_dpb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/gowin_pll_ae350/gowin_pll_ae350.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/gowin_pll_ddr3/gowin_pll_ddr3.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/gw_ahb_ram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/key_debounce.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/key_wr_ram_test.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/src/riscv_ae350_soc/riscv_ae350_soc.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "E:/Gowin/Project_Contest/GOWIN-138K-AE350/FPGA_design/ae350_demo/impl/temp/rtl_parser.result",
+ "Top" : "ae350_demo_top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,111 @@
+
+[INFO ] 25/04/05-22:43:59:059 - LogFactory2.initConfigurator(LogFactory2.java:64) 
+[main]: E:\Gowin\RDS\ide\plugins\com.andestech.ide.deploy_5.0.0.202204210534\log4j2.xml: reload.
+
+[INFO ] 25/04/05-22:43:59:059 - LogPlugin.setLoggerProperties(LogPlugin.java:112) 
+[main]: << Workspace / astlog.home>> : E:\Gowin\Project_Contest\GOWIN-138K-AE350\RISC-V_design
+===========================================================
+
+[INFO ] 25/04/05-22:44:01:001 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-0: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:44:01:001 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-0: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:44:06:006 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:44:06:006 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:44:07:007 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:44:07:007 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:00:000 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:00:000 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:00:000 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:00:000 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:27:027 - LogFactory2.initConfigurator(LogFactory2.java:64) 
+[main]: E:\Gowin\RDS\ide\plugins\com.andestech.ide.deploy_5.0.0.202204210534\log4j2.xml: reload.
+
+[INFO ] 25/04/05-22:46:27:027 - LogPlugin.setLoggerProperties(LogPlugin.java:112) 
+[main]: << Workspace / astlog.home>> : E:\Gowin\Project_Contest\GOWIN-138K-AE350\RISC-V_design
+===========================================================
+
+[INFO ] 25/04/05-22:46:29:029 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-1: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:29:029 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-1: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:35:035 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:35:035 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:36:036 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:36:036 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:40:040 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:40:040 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:40:040 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/04/05-22:46:40:040 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/04/06-22:34:46:046 - LogFactory2.initConfigurator(LogFactory2.java:64) 
+[main]: E:\Gowin\RDS\ide\plugins\com.andestech.ide.deploy_5.0.0.202204210534\log4j2.xml: reload.
+
+[INFO ] 25/04/06-22:34:46:046 - LogPlugin.setLoggerProperties(LogPlugin.java:112) 
+[main]: << Workspace / astlog.home>> : E:\Gowin\Project_Contest\GOWIN-138K-AE350\RISC-V_design
+===========================================================
+
+[INFO ] 25/04/06-22:34:47:047 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-0: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/04/06-22:34:47:047 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-0: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/04/06-22:34:53:053 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/06-22:34:53:053 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/06-22:34:54:054 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/06-22:34:54:054 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/04/06-22:37:01:001 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/04/06-22:37:01:001 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/04/06-22:37:01:001 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/04/06-22:37:01:001 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license

@@ -1,0 +1,335 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           RISC-V
+  Version:                           0x1
+  Entry point address:               0xc
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          374432 (bytes into file)
+  Flags:                             0x5, RVC, double-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         4
+  Size of section headers:           40 (bytes)
+  Number of section headers:         29
+  Section header string table index: 28
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .bootloader       PROGBITS        80000000 001000 000042 00  AX  0   0  4
+  [ 2] .loader           PROGBITS        0ff00000 002000 000044 00  AX  0   0  4
+  [ 3] .nds_vector       PROGBITS        00000000 003000 00003c 00  AX  0   0  1
+  [ 4] .text             PROGBITS        00000040 003040 0029cc 00  AX  0   0  4
+  [ 5] .rodata           PROGBITS        00002a0c 005a0c 000264 00   A  0   0  4
+  [ 6] .eh_frame         PROGBITS        00002c80 005c80 0000f8 00   A  0   0  4
+  [ 7] .data             PROGBITS        00002d78 005da0 000000 00  WA  0   0  1
+  [ 8] .data1            PROGBITS        00002d78 005da0 000000 00  WA  0   0  1
+  [ 9] .sdata            PROGBITS        00002d78 005d78 000028 00   A  0   0  8
+  [10] .sbss             NOBITS          00002da0 005da0 000028 00  WA  0   0  4
+  [11] .sbss_b           PROGBITS        00002dc8 005da0 000000 00   W  0   0  1
+  [12] .sbss_h           PROGBITS        00002dc8 005da0 000000 00   W  0   0  1
+  [13] .sbss_w           PROGBITS        00002dc8 005da0 000000 00   W  0   0  1
+  [14] .bss              NOBITS          00002dc8 005da0 0002b0 00  WA  0   0  4
+  [15] .comment          PROGBITS        00000000 005da0 00003c 01  MS  0   0  1
+  [16] .riscv.attributes RISCV_ATTRIBUTE 00000000 005ddc 000044 00      0   0  1
+  [17] .debug_aranges    PROGBITS        00000000 005e20 0008f0 00      0   0  8
+  [18] .debug_info       PROGBITS        00000000 006710 0111aa 00      0   0  1
+  [19] .debug_abbrev     PROGBITS        00000000 0178ba 002d6f 00      0   0  1
+  [20] .debug_line       PROGBITS        00000000 01a629 011c47 00      0   0  1
+  [21] .debug_frame      PROGBITS        00000000 02c270 001734 00      0   0  4
+  [22] .debug_str        PROGBITS        00000000 02d9a4 01e300 01  MS  0   0  1
+  [23] .debug_loc        PROGBITS        00000000 04bca4 007f73 00      0   0  1
+  [24] .debug_ranges     PROGBITS        00000000 053c17 000be8 00      0   0  1
+  [25] .debug_macro      PROGBITS        00000000 0547ff 005196 00      0   0  1
+  [26] .symtab           SYMTAB          00000000 059998 000f70 10     27  89  4
+  [27] .strtab           STRTAB          00000000 05a908 000c80 00      0   0  1
+  [28] .shstrtab         STRTAB          00000000 05b588 000118 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  p (processor specific)
+
+There are no section groups in this file.
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  LOAD           0x001000 0x80000000 0x00000000 0x00042 0x00042 R E 0x1000
+  LOAD           0x002000 0x0ff00000 0x00000048 0x00044 0x00044 R E 0x1000
+  LOAD           0x003000 0x00000000 0x00000100 0x02da0 0x03078 RWE 0x1000
+  RISCV_ATTRIBUT 0x005ddc 0x00000000 0x00000000 0x00044 0x00000 R   0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .bootloader 
+   01     .loader 
+   02     .nds_vector .text .rodata .eh_frame .sdata .sbss .bss 
+   03     .riscv.attributes 
+
+There is no dynamic section in this file.
+
+There are no relocations in this file.
+
+The decoding of unwind sections for machine type RISC-V is not currently supported.
+
+Symbol table '.symtab' contains 247 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 80000000     0 SECTION LOCAL  DEFAULT    1 
+     2: 0ff00000     0 SECTION LOCAL  DEFAULT    2 
+     3: 00000000     0 SECTION LOCAL  DEFAULT    3 
+     4: 00000040     0 SECTION LOCAL  DEFAULT    4 
+     5: 00002a0c     0 SECTION LOCAL  DEFAULT    5 
+     6: 00002c80     0 SECTION LOCAL  DEFAULT    6 
+     7: 00002d78     0 SECTION LOCAL  DEFAULT    7 
+     8: 00002d78     0 SECTION LOCAL  DEFAULT    8 
+     9: 00002d78     0 SECTION LOCAL  DEFAULT    9 
+    10: 00002da0     0 SECTION LOCAL  DEFAULT   10 
+    11: 00002dc8     0 SECTION LOCAL  DEFAULT   11 
+    12: 00002dc8     0 SECTION LOCAL  DEFAULT   12 
+    13: 00002dc8     0 SECTION LOCAL  DEFAULT   13 
+    14: 00002dc8     0 SECTION LOCAL  DEFAULT   14 
+    15: 00000000     0 SECTION LOCAL  DEFAULT   15 
+    16: 00000000     0 SECTION LOCAL  DEFAULT   16 
+    17: 00000000     0 SECTION LOCAL  DEFAULT   17 
+    18: 00000000     0 SECTION LOCAL  DEFAULT   18 
+    19: 00000000     0 SECTION LOCAL  DEFAULT   19 
+    20: 00000000     0 SECTION LOCAL  DEFAULT   20 
+    21: 00000000     0 SECTION LOCAL  DEFAULT   21 
+    22: 00000000     0 SECTION LOCAL  DEFAULT   22 
+    23: 00000000     0 SECTION LOCAL  DEFAULT   23 
+    24: 00000000     0 SECTION LOCAL  DEFAULT   24 
+    25: 00000000     0 SECTION LOCAL  DEFAULT   25 
+    26: 00000000     0 FILE    LOCAL  DEFAULT  ABS loader.c
+    27: 00000000     0 FILE    LOCAL  DEFAULT  ABS ae350.c
+    28: 00000000     0 FILE    LOCAL  DEFAULT  ABS cache.c
+    29: 00000104    70 FUNC    LOCAL  DEFAULT    4 ae350_l1c_dcache_writebac
+    30: 0000014c    70 FUNC    LOCAL  DEFAULT    4 ae350_l1c_dcache_invalida
+    31: 00000194    70 FUNC    LOCAL  DEFAULT    4 ae350_l1c_dcache_flush_ra
+    32: 00000214   252 FUNC    LOCAL  DEFAULT    4 ae350_dcache_invalidate_p
+    33: 00000000     0 FILE    LOCAL  DEFAULT  ABS initfini.c
+    34: 00000000     0 FILE    LOCAL  DEFAULT  ABS interrupt.c
+    35: 00000000     0 FILE    LOCAL  DEFAULT  ABS reset.c
+    36: 00000000     0 FILE    LOCAL  DEFAULT  ABS trap.c
+    37: 00000000     0 FILE    LOCAL  DEFAULT  ABS dma_ae350.c
+    38: 00002dc8   160 OBJECT  LOCAL  DEFAULT   14 channel_info
+    39: 00002da8     4 OBJECT  LOCAL  DEFAULT   10 channel_active
+    40: 00000000     0 FILE    LOCAL  DEFAULT  ABS gpio_ae350.c
+    41: 00000c98   206 FUNC    LOCAL  DEFAULT    4 gpio_set_intr_mode
+    42: 00002dac     4 OBJECT  LOCAL  DEFAULT   10 gpio_info
+    43: 00000000     0 FILE    LOCAL  DEFAULT  ABS i2c_ae350.c
+    44: 00002b38    16 OBJECT  LOCAL  DEFAULT    5 I2C_Resources
+    45: 00002e68   332 OBJECT  LOCAL  DEFAULT   14 I2C_Info
+    46: 00000000     0 FILE    LOCAL  DEFAULT  ABS rtc_ae350.c
+    47: 00000000     0 FILE    LOCAL  DEFAULT  ABS spi_ae350.c
+    48: 00002b48    24 OBJECT  LOCAL  DEFAULT    5 spi_resources
+    49: 00001740   590 FUNC    LOCAL  DEFAULT    4 spix_irq_handler
+    50: 00002fd8    64 OBJECT  LOCAL  DEFAULT   14 spi_info
+    51: 00000000     0 FILE    LOCAL  DEFAULT  ABS uart_ae350.c
+    52: 000019a0    82 FUNC    LOCAL  DEFAULT    4 uart_rxline_irq_handler
+    53: 000019f4   398 FUNC    LOCAL  DEFAULT    4 uart_irq_handler
+    54: 00001b84    44 FUNC    LOCAL  DEFAULT    4 uart_dma_tx_event
+    55: 00001bb4    44 FUNC    LOCAL  DEFAULT    4 uart_dma_rx_event
+    56: 00002b7c    28 OBJECT  LOCAL  DEFAULT    5 uart1_resources
+    57: 00002b60    28 OBJECT  LOCAL  DEFAULT    5 uart2_resources
+    58: 00002d88     8 OBJECT  LOCAL  DEFAULT    9 uart2_dma_tx
+    59: 00002d80     8 OBJECT  LOCAL  DEFAULT    9 uart2_dma_rx
+    60: 00003018    48 OBJECT  LOCAL  DEFAULT   14 uart2_info
+    61: 00002d98     8 OBJECT  LOCAL  DEFAULT    9 uart1_dma_tx
+    62: 00002d90     8 OBJECT  LOCAL  DEFAULT    9 uart1_dma_rx
+    63: 00003048    48 OBJECT  LOCAL  DEFAULT   14 uart1_info
+    64: 00000000     0 FILE    LOCAL  DEFAULT  ABS wdt_ae350.c
+    65: 00002db4     8 OBJECT  LOCAL  DEFAULT   10 wdt_info
+    66: 00001c44    18 FUNC    LOCAL  DEFAULT    4 wdt_get_status
+    67: 00000000     0 FILE    LOCAL  DEFAULT  ABS delay.c
+    68: 00001c70     6 FUNC    LOCAL  DEFAULT    4 get_core_freq
+    69: 00001c78    18 FUNC    LOCAL  DEFAULT    4 rdmcycle
+    70: 00000000     0 FILE    LOCAL  DEFAULT  ABS uart.c
+    71: 00000000     0 FILE    LOCAL  DEFAULT  ABS demo_led.c
+    72: 00000000     0 FILE    LOCAL  DEFAULT  ABS main.c
+    73: 00000000     0 FILE    LOCAL  DEFAULT  ABS write.c
+    74: 00000000     0 FILE    LOCAL  DEFAULT  ABS libgcc2.c
+    75: 00000000     0 FILE    LOCAL  DEFAULT  ABS init.c
+    76: 00000000     0 FILE    LOCAL  DEFAULT  ABS printf.c
+    77: 00000000     0 FILE    LOCAL  DEFAULT  ABS vprintf.c
+    78: 00001f50    56 FUNC    LOCAL  DEFAULT    4 __vprintf_help
+    79: 00002dbc     4 OBJECT  LOCAL  DEFAULT   10 __vprintf_buf_len
+    80: 00002dc0     4 OBJECT  LOCAL  DEFAULT   10 __vprintf_buf
+    81: 00000000     0 FILE    LOCAL  DEFAULT  ABS printf_impl.c
+    82: 00000000     0 FILE    LOCAL  DEFAULT  ABS printf_impl_float.c
+    83: 00000000     0 FILE    LOCAL  DEFAULT  ABS strnlen.c
+    84: 00000000     0 FILE    LOCAL  DEFAULT  ABS libgcc2.c
+    85: 00000000     0 FILE    LOCAL  DEFAULT  ABS libgcc2.c
+    86: 00000000     0 FILE    LOCAL  DEFAULT  ABS printf_data.c
+    87: 00000000     0 FILE    LOCAL  DEFAULT  ABS libgcc2.c
+    88: 00000000     0 FILE    LOCAL  DEFAULT  ABS libgcc2.c
+    89: 00000fc8    62 FUNC    GLOBAL DEFAULT    4 gpio_initialize
+    90: 00000454    18 FUNC    WEAK   DEFAULT    4 gp0_irq_handler
+    91: 000028fc    54 FUNC    GLOBAL DEFAULT    4 strcpy
+    92: 0000297c    46 FUNC    GLOBAL HIDDEN     4 __ashldi3
+    93: 00000454    18 FUNC    WEAK   DEFAULT    4 gp4_irq_handler
+    94: 000004a0    22 FUNC    WEAK   DEFAULT    4 reset_handler
+    95: 00000454    18 FUNC    WEAK   DEFAULT    4 pit_irq_handler
+    96: 00001f32    30 FUNC    GLOBAL DEFAULT    4 printf
+    97: 00003578     0 NOTYPE  GLOBAL DEFAULT    9 __global_pointer$
+    98: 000029b4    40 FUNC    GLOBAL HIDDEN     4 __riscv_save_8
+    99: 00001c04    16 FUNC    GLOBAL DEFAULT    4 uart2_dma_tx_event
+   100: 00002a00    12 FUNC    GLOBAL HIDDEN     4 __riscv_restore_3
+   101: 00000070    26 FUNC    GLOBAL DEFAULT    4 c_startup
+   102: 000029ec    32 FUNC    GLOBAL HIDDEN     4 __riscv_restore_10
+   103: 00000454    18 FUNC    WEAK   DEFAULT    4 gp2_irq_handler
+   104: 00001be4    16 FUNC    GLOBAL DEFAULT    4 uart1_dma_tx_event
+   105: 0000008c    50 FUNC    GLOBAL DEFAULT    4 system_init
+   106: 0000008c     0 NOTYPE  GLOBAL DEFAULT  ABS __loader_lmaend
+   107: 000029b4    40 FUNC    GLOBAL HIDDEN     4 __riscv_save_11
+   108: 00000454    18 FUNC    WEAK   DEFAULT    4 gp10_irq_handler
+   109: 00001fca    72 FUNC    GLOBAL DEFAULT    4 __print_integral
+   110: 00000dbc     8 FUNC    GLOBAL DEFAULT    4 gpio_read
+   111: 00002012  1100 FUNC    GLOBAL DEFAULT    4 __printf_impl_lite
+   112: 000003c4   132 FUNC    GLOBAL DEFAULT    4 ae350_dma_invalidate_rang
+   113: 00001bf4    16 FUNC    GLOBAL DEFAULT    4 uart1_dma_rx_event
+   114: 00002fb4    36 OBJECT  GLOBAL DEFAULT   14 g_rRtc_Info
+   115: 00000000     0 NOTYPE  GLOBAL DEFAULT    3 __text_start
+   116: 000001f8    26 FUNC    GLOBAL DEFAULT    4 ae350_dcache_invalidate_r
+   117: 00002a00    12 FUNC    GLOBAL HIDDEN     4 __riscv_restore_2
+   118: 00001cbc    46 FUNC    GLOBAL DEFAULT    4 simple_delay_ms
+   119: 00001190   478 FUNC    GLOBAL DEFAULT    4 i2c_cmpl_handler
+   120: 00000da4    20 FUNC    GLOBAL DEFAULT    4 gpio_write
+   121: 0000104c    22 FUNC    GLOBAL DEFAULT    4 i2cx_signalevent
+   122: 00002012  1100 FUNC    GLOBAL DEFAULT    4 __printf_impl
+   123: 00000454    18 FUNC    WEAK   DEFAULT    4 gp13_irq_handler
+   124: 000009c8    52 FUNC    GLOBAL DEFAULT    4 dma_channel_get_count
+   125: 00000454    18 FUNC    WEAK   DEFAULT    4 gp3_irq_handler
+   126: 00001d28   122 FUNC    GLOBAL DEFAULT    4 demo_led
+   127: 00000dc8    32 FUNC    GLOBAL DEFAULT    4 gpio_setdir
+   128: 000029ac    48 FUNC    GLOBAL HIDDEN     4 __riscv_save_12
+   129: 00000454    18 FUNC    WEAK   DEFAULT    4 gp9_irq_handler
+   130: 00000000     0 NOTYPE  GLOBAL DEFAULT  ABS NDS_SAG_LMA_HEAD
+   131: 000029ec    32 FUNC    GLOBAL HIDDEN     4 __riscv_restore_11
+   132: 000029dc    12 FUNC    GLOBAL HIDDEN     4 __riscv_save_1
+   133: 00002a00    12 FUNC    GLOBAL HIDDEN     4 __riscv_restore_0
+   134: 000029c2    26 FUNC    GLOBAL HIDDEN     4 __riscv_save_7
+   135: 000010dc    74 FUNC    GLOBAL DEFAULT    4 i2cx_master_fifo_read
+   136: 000008e8   224 FUNC    GLOBAL DEFAULT    4 dma_channel_abort
+   137: 00000100     0 NOTYPE  GLOBAL DEFAULT  ABS __text_lmastart
+   138: 000029f6    22 FUNC    GLOBAL HIDDEN     4 __riscv_restore_5
+   139: 00001e5e    76 FUNC    GLOBAL DEFAULT    4 __libc_init_array
+   140: 00000454    18 FUNC    WEAK   DEFAULT    4 gp11_irq_handler
+   141: 0000044c     2 FUNC    GLOBAL DEFAULT    4 _init
+   142: 00002932    24 FUNC    GLOBAL DEFAULT    4 strnlen
+   143: 000029f6    22 FUNC    GLOBAL HIDDEN     4 __riscv_restore_6
+   144: 00000314    26 FUNC    GLOBAL DEFAULT    4 ae350_dcache_flush_range
+   145: 00000454    18 FUNC    WEAK   DEFAULT    4 standby_irq_handler
+   146: 00000000     0 NOTYPE  GLOBAL DEFAULT    3 reset_vector
+   147: 00000100     0 NOTYPE  GLOBAL DEFAULT  ABS NDS_SAG_LMA_MEM
+   148: 000004c4     6 FUNC    WEAK   DEFAULT    4 mswi_handler
+   149: 00000f9c    40 FUNC    GLOBAL DEFAULT    4 gpio_uninitialize
+   150: 000016d0    80 FUNC    GLOBAL DEFAULT    4 rtc_period_irq_handler
+   151: 0000003a     0 NOTYPE  WEAK   DEFAULT    3 trap_handler
+   152: 000013a4   194 FUNC    GLOBAL DEFAULT    4 i2cx_slave_addr_hit_handl
+   153: 00000454    18 FUNC    WEAK   DEFAULT    4 gp8_irq_handler
+   154: 0000294c    46 FUNC    GLOBAL HIDDEN     4 __lshrdi3
+   155: 00000d68    10 FUNC    GLOBAL DEFAULT    4 gpio_get_version
+   156: 000029b4    40 FUNC    GLOBAL HIDDEN     4 __riscv_save_9
+   157: 00001f88    66 FUNC    GLOBAL DEFAULT    4 vprintf
+   158: 000029c2    26 FUNC    GLOBAL HIDDEN     4 __riscv_save_4
+   159: 00001c34    16 FUNC    GLOBAL DEFAULT    4 uart2_irq_handler
+   160: 00000d74    30 FUNC    GLOBAL DEFAULT    4 gpio_pinwrite
+   161: 00002db0     4 OBJECT  GLOBAL DEFAULT   10 check
+   162: 000001dc    26 FUNC    GLOBAL DEFAULT    4 ae350_dcache_writeback_ra
+   163: 00001cec    54 FUNC    GLOBAL DEFAULT    4 uart_init
+   164: 000029dc    12 FUNC    GLOBAL HIDDEN     4 __riscv_save_3
+   165: 0000000c     0 FUNC    GLOBAL DEFAULT    3 _start
+   166: 000004b8    10 FUNC    WEAK   DEFAULT    4 mtime_handler
+   167: 000016a8    16 FUNC    GLOBAL DEFAULT    4 i2c_irq_handler
+   168: 00002bd4    16 OBJECT  GLOBAL DEFAULT    5 __digits
+   169: 00000330    12 FUNC    GLOBAL DEFAULT    4 ae350_dma_writeback_range
+   170: 00001064    78 FUNC    GLOBAL DEFAULT    4 i2cx_master_fifo_write
+   171: 00000454    18 FUNC    WEAK   DEFAULT    4 wakeup_irq_handler
+   172: 00000040    46 FUNC    GLOBAL DEFAULT    4 __platform_init
+   173: 00000dec   350 FUNC    GLOBAL DEFAULT    4 gpio_control
+   174: 0000033c   132 FUNC    GLOBAL DEFAULT    4 ae350_dma_invalidate_rang
+   175: 00002dc4     4 OBJECT  GLOBAL DEFAULT   10 __printf_count
+   176: 00001e0c    82 FUNC    GLOBAL HIDDEN     4 __floatundisf
+   177: 00001724    28 FUNC    GLOBAL DEFAULT    4 rtc_alarm_irq_handler
+   178: 000029b4    40 FUNC    GLOBAL HIDDEN     4 __riscv_save_10
+   179: 0000247e   134 FUNC    GLOBAL DEFAULT    4 __print_integral_poly
+   180: 00002b10    40 OBJECT  GLOBAL DEFAULT    5 Driver_GPIO
+   181: 000029f6    22 FUNC    GLOBAL HIDDEN     4 __riscv_restore_4
+   182: 000029ec    32 FUNC    GLOBAL HIDDEN     4 __riscv_restore_8
+   183: 00000f4c    78 FUNC    GLOBAL DEFAULT    4 gpio_get_status
+   184: 00000454    18 FUNC    GLOBAL DEFAULT    4 default_irq_handler
+   185: 000029c2    26 FUNC    GLOBAL HIDDEN     4 __riscv_save_6
+   186: 00000454    18 FUNC    WEAK   DEFAULT    4 gp1_irq_handler
+   187: 00000454    18 FUNC    WEAK   DEFAULT    4 gp12_irq_handler
+   188: 00000840   168 FUNC    GLOBAL DEFAULT    4 dma_channel_disable
+   189: 00001128   100 FUNC    GLOBAL DEFAULT    4 i2cx_slave_fifo_read
+   190: 80000000     0 NOTYPE  WEAK   DEFAULT    1 _RELAX_END_
+   191: 00002da0     0 NOTYPE  GLOBAL DEFAULT   10 __bss_start
+   192: 00002504  1016 FUNC    GLOBAL DEFAULT    4 __printf_float_impl
+   193: 00001eac   134 FUNC    GLOBAL DEFAULT    4 memset
+   194: 000029ec    32 FUNC    GLOBAL HIDDEN     4 __riscv_restore_9
+   195: 000029f6    22 FUNC    GLOBAL HIDDEN     4 __riscv_restore_7
+   196: 00001da4    10 FUNC    GLOBAL DEFAULT    4 main
+   197: 0000050c   376 FUNC    GLOBAL DEFAULT    4 trap_entry
+   198: 0ff00000     0 NOTYPE  GLOBAL DEFAULT    2 __loader_start
+   199: 00002d78     0 NOTYPE  GLOBAL DEFAULT    6 __init_array_end
+   200: 00001c8c    48 FUNC    GLOBAL DEFAULT    4 time
+   201: 00000048     0 NOTYPE  GLOBAL DEFAULT  ABS __loader_lmastart
+   202: 000016b8    22 FUNC    GLOBAL DEFAULT    4 rtc_signal_event
+   203: 00000048     0 NOTYPE  GLOBAL DEFAULT  ABS NDS_SAG_LMA_LDSECTION
+   204: 00000454    18 FUNC    WEAK   DEFAULT    4 gp15_irq_handler
+   205: 00001468   576 FUNC    GLOBAL DEFAULT    4 i2cx_irq_handler
+   206: 000010b4    38 FUNC    GLOBAL DEFAULT    4 i2cx_fifo_empty_handler
+   207: 00000450     2 FUNC    GLOBAL DEFAULT    4 _fini
+   208: 00001f32    30 FUNC    GLOBAL DEFAULT    4 iprintf
+   209: 00002da0     8 OBJECT  GLOBAL DEFAULT   10 cache_info
+   210: 00000454    18 FUNC    WEAK   DEFAULT    4 gp14_irq_handler
+   211: 00002d78     0 NOTYPE  GLOBAL DEFAULT    6 __preinit_array_end
+   212: 0ff00000    68 FUNC    GLOBAL DEFAULT    2 loader
+   213: 00002a28   128 OBJECT  GLOBAL DEFAULT    5 irq_handler
+   214: 000029dc    12 FUNC    GLOBAL HIDDEN     4 __riscv_save_2
+   215: 00001008    66 FUNC    GLOBAL DEFAULT    4 gpio_irq_handler
+   216: 000000c0    66 FUNC    GLOBAL DEFAULT    4 get_cache_info
+   217: 000029c2    26 FUNC    GLOBAL HIDDEN     4 __riscv_save_5
+   218: 00000d94    14 FUNC    GLOBAL DEFAULT    4 gpio_pinread
+   219: 00000454    18 FUNC    WEAK   DEFAULT    4 gp6_irq_handler
+   220: 00001dc4    72 FUNC    GLOBAL DEFAULT    4 _write
+   221: 00000688   436 FUNC    GLOBAL DEFAULT    4 dma_channel_configure
+   222: 00002da0     0 NOTYPE  GLOBAL DEFAULT   10 _edata
+   223: 80000000     0 NOTYPE  GLOBAL DEFAULT    1 __flash_start
+   224: 00003078     0 NOTYPE  GLOBAL DEFAULT   14 _end
+   225: 00001db0    20 FUNC    WEAK   DEFAULT    4 _put_char
+   226: 00001c24    16 FUNC    GLOBAL DEFAULT    4 uart1_irq_handler
+   227: 00001c58    22 FUNC    GLOBAL DEFAULT    4 nmi_handler
+   228: 000004cc    28 FUNC    WEAK   DEFAULT    4 syscall_handler
+   229: 00000454    18 FUNC    WEAK   DEFAULT    4 gp5_irq_handler
+   230: 00000468    54 FUNC    GLOBAL DEFAULT    4 mext_interrupt
+   231: 000029e8    36 FUNC    GLOBAL HIDDEN     4 __riscv_restore_12
+   232: 00002d78     0 NOTYPE  GLOBAL DEFAULT    6 __init_array_start
+   233: 000029dc    12 FUNC    GLOBAL HIDDEN     4 __riscv_save_0
+   234: 00000a00   664 FUNC    GLOBAL DEFAULT    4 dma_irq_handler
+   235: 08000000     0 NOTYPE  GLOBAL DEFAULT  ABS _stack
+   236: 00002a00    12 FUNC    GLOBAL HIDDEN     4 __riscv_restore_1
+   237: 00001370    50 FUNC    GLOBAL DEFAULT    4 i2cx_fifo_full_handler
+   238: 00002d78     0 NOTYPE  GLOBAL DEFAULT    6 __preinit_array_start
+   239: 00001d24     2 FUNC    GLOBAL DEFAULT    4 gpio_callback_led
+   240: 80000000    66 FUNC    GLOBAL DEFAULT    1 boot_loader
+   241: 00000454    18 FUNC    WEAK   DEFAULT    4 gp7_irq_handler
+   242: 000004ec    30 FUNC    WEAK   DEFAULT    4 except_handler
+   243: 00001990    16 FUNC    GLOBAL DEFAULT    4 spi_irq_handler
+   244: 00001f88    66 FUNC    GLOBAL DEFAULT    4 viprintf
+   245: 0000245e    32 FUNC    GLOBAL DEFAULT    4 __int_to_poly
+   246: 00001c14    16 FUNC    GLOBAL DEFAULT    4 uart2_dma_rx_event
+
+No version information found in this file.
+Attribute Section: riscv
+File Attributes
+  Tag_RISCV_stack_align: 16-bytes
+  Tag_RISCV_arch: "rv32i2p0_m2p0_a2p0_f2p0_d2p0_c2p0_p0p5_xandes5p0"

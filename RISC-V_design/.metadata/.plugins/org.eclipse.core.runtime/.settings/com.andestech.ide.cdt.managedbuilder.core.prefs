@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+toolChain/nds32le-elf-mculib-v5/ldscript/_stack=3000000
+toolChain/nds32le-elf-mculib-v5/ldscript/fileName=E\:\\Gowin\\RDS\\toolchains\\nds32le-elf-mculib-v5\\riscv32-elf\\lib\\ldscripts\\elf32lriscv.x
+toolChain/nds32le-elf-mculib-v5/ldscript/lastModified=1651588409000
+toolChain/nds32le-elf-mculib-v5d/ldscript/_stack=3000000
+toolChain/nds32le-elf-mculib-v5d/ldscript/fileName=E\:\\Gowin\\RDS\\toolchains\\nds32le-elf-mculib-v5d\\riscv32-elf\\lib\\ldscripts\\elf32lriscv.x
+toolChain/nds32le-elf-mculib-v5d/ldscript/lastModified=1651587795000

@@ -1,0 +1,190 @@
+00000000 A NDS_SAG_LMA_HEAD
+00000000 T __text_start	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/loader.c:18
+00000000 T reset_vector	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/start.S:24
+0000000c T _start	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/start.S:34
+0000003a W trap_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/start.S:79
+00000040 T __platform_init	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/ae350.c:21
+00000048 A NDS_SAG_LMA_LDSECTION
+00000048 A __loader_lmastart
+00000070 T c_startup	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/ae350.c:47
+0000008c A __loader_lmaend
+0000008c T system_init	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/ae350.c:71
+000000c0 T get_cache_info	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/cache.c:82
+00000100 A NDS_SAG_LMA_MEM
+00000100 A __text_lmastart
+00000104 t ae350_l1c_dcache_writeback_range	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/cache.c:183
+0000014c t ae350_l1c_dcache_invalidate_range	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/cache.c:199
+00000194 t ae350_l1c_dcache_flush_range	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/cache.c:215
+000001dc T ae350_dcache_writeback_range	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/cache.c:259
+000001f8 T ae350_dcache_invalidate_range	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/cache.c:267
+00000214 t ae350_dcache_invalidate_partial_line	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/cache.c:331
+00000314 T ae350_dcache_flush_range	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/cache.c:275
+00000330 T ae350_dma_writeback_range	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/cache.c:364
+0000033c T ae350_dma_invalidate_range	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/cache.c:375
+000003c4 T ae350_dma_invalidate_range2	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/cache.c:413
+0000044c T _init	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/initfini.c:25
+00000450 T _fini	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/initfini.c:29
+00000454 T default_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:23
+00000454 W gp0_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp10_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp11_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp12_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp13_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp14_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp15_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp1_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp2_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp3_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp4_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp5_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp6_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp7_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp8_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W gp9_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W pit_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W standby_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000454 W wakeup_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:24
+00000468 T mext_interrupt	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:98
+000004a0 W reset_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/reset.c:27
+000004b8 W mtime_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/trap.c:19
+000004c4 W mswi_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/trap.c:25
+000004cc W syscall_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/trap.c:31
+000004ec W except_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/trap.c:37
+0000050c T trap_entry	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/trap.c:47
+00000688 T dma_channel_configure	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/dma_ae350.c:214
+00000840 T dma_channel_disable	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/dma_ae350.c:361
+000008e8 T dma_channel_abort	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/dma_ae350.c:411
+000009c8 T dma_channel_get_count	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/dma_ae350.c:497
+00000a00 T dma_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/dma_ae350.c:512
+00000c98 t gpio_set_intr_mode	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:35
+00000d68 T gpio_get_version	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:71
+00000d74 T gpio_pinwrite	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:132
+00000d94 T gpio_pinread	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:142
+00000da4 T gpio_write	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:152
+00000dbc T gpio_read	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:161
+00000dc8 T gpio_setdir	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:171
+00000dec T gpio_control	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:184
+00000f4c T gpio_get_status	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:282
+00000f9c T gpio_uninitialize	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:111
+00000fc8 T gpio_initialize	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:81
+00001008 T gpio_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:304
+0000104c T i2cx_signalevent	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:808
+00001064 T i2cx_master_fifo_write	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:993
+000010b4 T i2cx_fifo_empty_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:1089
+000010dc T i2cx_master_fifo_read	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:1107
+00001128 T i2cx_slave_fifo_read	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:1135
+00001190 T i2c_cmpl_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:819
+00001370 T i2cx_fifo_full_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:1190
+000013a4 T i2cx_slave_addr_hit_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:1207
+00001468 T i2cx_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:1291
+000016a8 T i2c_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:1621
+000016b8 T rtc_signal_event	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/rtc_ae350.c:428
+000016d0 T rtc_period_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/rtc_ae350.c:438
+00001724 T rtc_alarm_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/rtc_ae350.c:482
+00001740 t spix_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/spi_ae350.c:936
+00001990 T spi_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/spi_ae350.c:1240
+000019a0 t uart_rxline_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:204
+000019f4 t uart_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:1155
+00001b84 t uart_dma_tx_event	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:1301
+00001bb4 t uart_dma_rx_event	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:1335
+00001be4 T uart1_dma_tx_event	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:1429
+00001bf4 T uart1_dma_rx_event	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:1436
+00001c04 T uart2_dma_tx_event	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:1540
+00001c14 T uart2_dma_rx_event	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:1547
+00001c24 T uart1_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:1443
+00001c34 T uart2_irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:1554
+00001c44 t wdt_get_status	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/wdt_ae350.c:226
+00001c58 T nmi_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/wdt_ae350.c:258
+00001c70 t get_core_freq	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/lib/delay.c:24
+00001c78 t rdmcycle	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/lib/delay.c:29
+00001c8c T time	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/lib/delay.c:48
+00001cbc T simple_delay_ms	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/lib/delay.c:59
+00001cec T uart_init	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/lib/uart.c:28
+00001d24 T gpio_callback_led	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/demo/led/demo_led.c:47
+00001d28 T demo_led	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/demo/led/demo_led.c:58
+00001da4 T main	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/demo/main.c:15
+00001db0 W _put_char	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/demo/stubs/write.c:36
+00001dc4 T _write	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/demo/stubs/write.c:18
+00001e0c T __floatundisf	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/libgcc2.c:1732
+00001e5e T __libc_init_array
+00001eac T memset
+00001f32 T iprintf
+00001f32 T printf
+00001f50 t __vprintf_help
+00001f88 T viprintf
+00001f88 T vprintf
+00001fca T __print_integral
+00002012 T __printf_impl
+00002012 T __printf_impl_lite
+0000245e T __int_to_poly
+0000247e T __print_integral_poly
+00002504 T __printf_float_impl
+000028fc T strcpy
+00002932 T strnlen
+0000294c T __lshrdi3	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/libgcc2.c:404
+0000297c T __ashldi3	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/libgcc2.c:432
+000029ac T __riscv_save_12	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:343
+000029b4 T __riscv_save_10	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:355
+000029b4 T __riscv_save_11	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:355
+000029b4 T __riscv_save_8	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:355
+000029b4 T __riscv_save_9	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:355
+000029c2 T __riscv_save_4	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:378
+000029c2 T __riscv_save_5	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:378
+000029c2 T __riscv_save_6	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:378
+000029c2 T __riscv_save_7	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:378
+000029dc T __riscv_save_0	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:420
+000029dc T __riscv_save_1	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:420
+000029dc T __riscv_save_2	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:420
+000029dc T __riscv_save_3	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:420
+000029e8 T __riscv_restore_12	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:452
+000029ec T __riscv_restore_10	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:462
+000029ec T __riscv_restore_11	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:462
+000029ec T __riscv_restore_8	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:462
+000029ec T __riscv_restore_9	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:462
+000029f6 T __riscv_restore_4	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:482
+000029f6 T __riscv_restore_5	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:482
+000029f6 T __riscv_restore_6	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:482
+000029f6 T __riscv_restore_7	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:482
+00002a00 T __riscv_restore_0	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:505
+00002a00 T __riscv_restore_1	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:505
+00002a00 T __riscv_restore_2	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:505
+00002a00 T __riscv_restore_3	/home/sqa/Jenkins/workspace/build-system-3/source-packages/gcc-10.3.0-riscv-ast-v5_1_0-branch/libgcc/config/riscv/save-restore.S:505
+00002a28 R irq_handler	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/interrupt.c:60
+00002b10 R Driver_GPIO	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:327
+00002b38 r I2C_Resources	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:60
+00002b48 r spi_resources	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/spi_ae350.c:48
+00002b60 r uart2_resources	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:115
+00002b7c r uart1_resources	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:51
+00002bd4 R __digits
+00002d78 R __init_array_end
+00002d78 R __init_array_start
+00002d78 R __preinit_array_end
+00002d78 R __preinit_array_start
+00002d80 g uart2_dma_rx	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:110
+00002d88 g uart2_dma_tx	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:104
+00002d90 g uart1_dma_rx	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:46
+00002d98 g uart1_dma_tx	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:40
+00002da0 S __bss_start
+00002da0 S _edata
+00002da0 S cache_info
+00002da8 s channel_active	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/dma_ae350.c:31
+00002dac s gpio_info	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/gpio_ae350.c:25
+00002db0 S check	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:817
+00002db4 s wdt_info	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/wdt_ae350.c:27
+00002dbc s __vprintf_buf_len
+00002dc0 s __vprintf_buf
+00002dc4 S __printf_count
+00002dc8 b channel_info	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/dma_ae350.c:34
+00002e68 b I2C_Info	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/i2c_ae350.c:37
+00002fb4 B g_rRtc_Info	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/rtc_ae350.c:31
+00002fd8 b spi_info	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/spi_ae350.c:35
+00003018 b uart2_info	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:100
+00003048 b uart1_info	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/driver/ae350/uart_ae350.c:36
+00003078 B _end
+00003578 G __global_pointer$
+08000000 A _stack
+0ff00000 T __loader_start	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/loader.c:59
+0ff00000 T loader	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/loader.c:53
+80000000 W _RELAX_END_	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/loader.c:35
+80000000 T __flash_start	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/loader.c:35
+80000000 T boot_loader	/cygdrive/e/Gowin/Project_Contest/GOWIN-138K-AE350/RISC-V_design/ae350_demo/Debug/../src/bsp/ae350/loader.c:24

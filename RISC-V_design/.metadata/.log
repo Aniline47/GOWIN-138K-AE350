@@ -1,0 +1,92 @@
+!SESSION 2025-04-05 22:43:28.875 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-04-05 22:43:59.504
+!MESSAGE Both 'com.andestech.ide.ldsag' and 'com.andestech.ide.ldsag.xtext' register a package for 'http:///ide.andestech.com.ldsag/ldsag.ecore'
+
+!ENTRY org.eclipse.ui 2 2 2025-04-05 22:44:01.284
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.binutils, page: org.eclipse.linuxtools.binutils.preferences)
+
+!ENTRY org.eclipse.ui 2 2 2025-04-05 22:44:01.285
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.gcov.core, page: org.eclipse.linuxtools.gcov.core.preferences.colors)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-05 22:44:07.446
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-05 22:44:07.448
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-05 22:44:07.448
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-04-05 22:44:08.388
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.RepositoriesView' id and the 'Git Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-04-05 22:44:08.390
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.StagingView' id and the 'Git Staging' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-04-05 22:44:08.391
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.InteractiveRebaseView' id and the 'Git Interactive Rebase' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-04-05 22:44:08.391
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.CompareTreeView' id and the 'Git Tree Compare' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-04-05 22:44:08.391
+!MESSAGE Removing part descriptor with the 'org.eclipse.egit.ui.ReflogView' id and the 'Git Reflog' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-05 22:44:47.512
+!MESSAGE Indexed 'ae350_demo' (59 sources, 92 headers) in 1.71 sec: 5,340 declarations; 14,472 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+!SESSION 2025-04-05 22:46:14.873 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh
+Framework arguments:  E:\Gowin\Project_Contest\GOWIN-138K-AE350\RISC-V_design\ae350_demo\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 E:\Gowin\Project_Contest\GOWIN-138K-AE350\RISC-V_design\ae350_demo\.project
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-04-05 22:46:27.600
+!MESSAGE Both 'com.andestech.ide.ldsag' and 'com.andestech.ide.ldsag.xtext' register a package for 'http:///ide.andestech.com.ldsag/ldsag.ecore'
+
+!ENTRY org.eclipse.ui 2 2 2025-04-05 22:46:29.198
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.binutils, page: org.eclipse.linuxtools.binutils.preferences)
+
+!ENTRY org.eclipse.ui 2 2 2025-04-05 22:46:29.198
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.gcov.core, page: org.eclipse.linuxtools.gcov.core.preferences.colors)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-05 22:46:36.861
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-05 22:46:36.862
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-05 22:46:36.862
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2025-04-06 22:34:21.547 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh
+Framework arguments:  E:\Gowin\Project_Contest\GOWIN-138K-AE350\RISC-V_design\ae350_demo\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 E:\Gowin\Project_Contest\GOWIN-138K-AE350\RISC-V_design\ae350_demo\.project
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-04-06 22:34:46.257
+!MESSAGE Both 'com.andestech.ide.ldsag' and 'com.andestech.ide.ldsag.xtext' register a package for 'http:///ide.andestech.com.ldsag/ldsag.ecore'
+
+!ENTRY org.eclipse.ui 2 2 2025-04-06 22:34:47.780
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.binutils, page: org.eclipse.linuxtools.binutils.preferences)
+
+!ENTRY org.eclipse.ui 2 2 2025-04-06 22:34:47.781
+!MESSAGE Invalid preference category path: org.eclipse.linuxtools.profiling.provider.MainPreferencePage (bundle: org.eclipse.linuxtools.gcov.core, page: org.eclipse.linuxtools.gcov.core.preferences.colors)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-06 22:34:55.464
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-06 22:34:55.466
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-04-06 22:34:55.467
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

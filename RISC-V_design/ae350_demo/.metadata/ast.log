@@ -1,0 +1,117 @@
+
+[INFO ] 25/01/13-10:20:05:005 - LogFactory2.initConfigurator(LogFactory2.java:64) 
+[main]: E:\Gowin\RDS\ide\plugins\com.andestech.ide.deploy_5.0.0.202204210534\log4j2.xml: reload.
+
+[INFO ] 25/01/13-10:20:05:005 - LogPlugin.setLoggerProperties(LogPlugin.java:112) 
+[main]: << Workspace / astlog.home>> : E:\Gowin\Project_Contest\RiscV_AE350_SOC_V1.2\ref_design\MCU_RefDesign\ae350_demo
+===========================================================
+
+[INFO ] 25/01/13-10:20:08:008 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-0: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-10:20:08:008 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-0: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-10:20:19:019 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-10:20:19:019 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-10:20:20:020 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-10:20:20:020 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-10:21:09:009 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-10:21:09:009 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-10:21:09:009 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-10:21:09:009 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-16:38:08:008 - LogFactory2.initConfigurator(LogFactory2.java:64) 
+[main]: E:\Gowin\RDS\ide\plugins\com.andestech.ide.deploy_5.0.0.202204210534\log4j2.xml: reload.
+
+[INFO ] 25/01/13-16:38:08:008 - LogPlugin.setLoggerProperties(LogPlugin.java:112) 
+[main]: << Workspace / astlog.home>> : E:\Gowin\Project_Contest\RiscV_AE350_SOC_V1.2\ref_design\MCU_RefDesign\ae350_demo
+===========================================================
+
+[INFO ] 25/01/13-16:38:11:011 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-0: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-16:38:11:011 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-0: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-16:38:21:021 - Log4A.logInfo(Log4A.java:34) 
+[Timer-0]: connectDevice...[IceDevice [vid=1027, pid=24592, bus=1, port=6, device=13, name=GWUSB-D, argumentMap={default=-I gwusb_ftdi_dual.cfg, jdp=-I gwusb_ftdi_dual.cfg}]]
+
+[INFO ] 25/01/13-16:38:23:023 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-16:38:23:023 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-16:38:25:025 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-16:38:25:025 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-16:38:43:043 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-16:38:43:043 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-16:38:43:043 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/01/13-16:38:43:043 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/03/31-16:56:48:048 - LogFactory2.initConfigurator(LogFactory2.java:64) 
+[main]: E:\Gowin\RDS\ide\plugins\com.andestech.ide.deploy_5.0.0.202204210534\log4j2.xml: reload.
+
+[INFO ] 25/03/31-16:56:48:048 - LogPlugin.setLoggerProperties(LogPlugin.java:112) 
+[main]: << Workspace / astlog.home>> : E:\Gowin\Project_Contest\RiscV_AE350_SOC_V1.2\ref_design\MCU_RefDesign\ae350_demo
+===========================================================
+
+[INFO ] 25/03/31-16:56:49:049 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-1: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/03/31-16:56:49:049 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Worker-1: License Check Retry Job]: call TRUE_LICENSE license
+
+[INFO ] 25/03/31-16:56:57:057 - Log4A.logInfo(Log4A.java:34) 
+[Timer-0]: connectDevice...[IceDevice [vid=1027, pid=24592, bus=1, port=3, device=63, name=GWUSB-D, argumentMap={default=-I gwusb_ftdi_dual.cfg, jdp=-I gwusb_ftdi_dual.cfg}]]
+
+[INFO ] 25/03/31-16:56:58:058 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/03/31-16:56:58:058 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/03/31-16:56:59:059 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/03/31-16:56:59:059 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[main]: call TRUE_LICENSE license
+
+[INFO ] 25/03/31-16:57:14:014 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/03/31-16:57:14:014 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/03/31-16:57:14:014 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license
+
+[INFO ] 25/03/31-16:57:14:014 - LicenseAdmin.checkLicenseControlType(LicenseAdmin.java:107) 
+[Framework stop]: call TRUE_LICENSE license

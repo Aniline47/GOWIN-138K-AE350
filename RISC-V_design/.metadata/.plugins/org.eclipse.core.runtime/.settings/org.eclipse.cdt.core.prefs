@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+environment/workspace/MINGW_HOME/delimiter=;
+environment/workspace/MINGW_HOME/operation=prepend
+environment/workspace/MINGW_HOME/value=E\:\\Gowin\\RDS\\mingw
+environment/workspace/MSYS_HOME/delimiter=;
+environment/workspace/MSYS_HOME/operation=prepend
+environment/workspace/MSYS_HOME/value=E\:\\Gowin\\RDS\\mingw\\msys
+environment/workspace/PATH/delimiter=;
+environment/workspace/PATH/operation=prepend
+environment/workspace/PATH/value=E\:\\Gowin\\RDS\\cygwin\\bin;${PATH}
+environment/workspace/append=true
+environment/workspace/appendContributed=true

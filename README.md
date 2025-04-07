@@ -55,11 +55,14 @@
   - **解决方案**：
     - 步骤1：使用[UsbDriverTool](https://visualgdb.com/UsbDriverTool/)将FTDI驱动改为 **libusb(WINUSB)**  
     - 操作示例：
-      
+
+    - 更改驱动：  
     <img src="Pic/Install.png" width="300"> 
 
+    - 更改后驱动显示：  
     <img src="Pic/GWU2X.png" width="300"> 
-
+    
+    - 官方文档：
     <img src="Pic/winusb.png" width="300">  
 
 

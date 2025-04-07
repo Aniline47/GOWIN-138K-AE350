@@ -38,41 +38,43 @@
    - **调试运行**：  
      - 需双JTAG或拔插切换（(FPGA/AE350)FLASH下载JTAG与AE350调试JTAG不共用）  
 
-# JTAG驱动配置
-
-## 3. JTAG驱动配置  
-- **问题**：无法识别AE350核心  
-- **问题链接**：[TangMega138K RiscV硬核AE350下载程序遇到的问题](https://maixhub.com/discussion/100631)  
-- **原因**：JTAG驱动问题，如图驱动无法识别AE350。  
-
-> **注意**：如果你只是想进行FLASH烧录而不是调试下载，可跳过此步骤和RDS的报错，直接进行闪存烧录。  
-
-### 无法识别AE350的驱动截图  
-<img src="Pic/FTDI.png" width="300">  
-> 上图显示驱动是无法识别AE350的。  
 
 
-### 解决方案  
-- **步骤1**：使用[UsbDriverTool](https://visualgdb.com/UsbDriverTool/)将FTDI驱动改为 **libusb(WINUSB)**  
-- **操作示例**：  
-  <img src="Pic/Install.png" width="300"> 
+3. **JTAG驱动配置**  
+  - **问题**：无法识别AE350核心  
+  - **问题链接**：[TangMega138K RiscV硬核AE350下载程序遇到的问题](https://maixhub.com/discussion/100631)  
+  - **原因**：JTAG驱动问题，如图驱动无法识别AE350。  
 
-  <img src="Pic/GWU2X.png" width="300"> 
-   
-  <img src="Pic/winusb.png" width="300">  
+  > **注意**：如果你只是想进行FLASH烧录而不是调试下载，可跳过此步骤和RDS的报错，直接进行闪存烧录。  
+
+  - **无法识别AE350的驱动截图**：
+  <img src="Pic/FTDI.png" width="300">  
+  > 上图显示驱动是无法识别AE350的。  
+
+
+  - **解决方案**：
+    - 步骤1：使用[UsbDriverTool](https://visualgdb.com/UsbDriverTool/)将FTDI驱动改为 **libusb(WINUSB)**  
+    - 操作示例：
+      
+    <img src="Pic/Install.png" width="300"> 
+
+    <img src="Pic/GWU2X.png" width="300"> 
+
+    <img src="Pic/winusb.png" width="300">  
 
 
 
-### 验证  
-- **命令测试**：  
-  ```bash
-  -Z v5  # 若输出"ALL PASS"则正常
+  - **验证**：
+    - 命令测试：  
+    ```bash
+    -Z v5  # 若输出"ALL PASS"则正常
+    ```
 
-- 命令操作示例：
-<img src="Pic/JTAG.png" width="300">
+    - 命令操作示例：
+    <img src="Pic/JTAG.png" width="300">
 
-- 正确输出日志：
-<img src="Pic/log.png" width="300">
+    - 正确输出日志：
+    <img src="Pic/log.png" width="300">
 
 4. **FPGA下载配置**  
    - 若下载.fs失败：  

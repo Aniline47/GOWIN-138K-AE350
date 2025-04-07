@@ -4,7 +4,8 @@
 学校里买的都是 **Tang Mega 138K** 板子，既然是138K，那肯定要玩一下这个RISC-V，所以就尝试了把 **Tang Mega 138K Pro** 的 `ae350_demo` 工程移植到Gowin（高云）138K第三方开发板。总的来说还行，用起来不会太差（可能是MSPM0G3507的寄存器也差不多难用），至少做一下电赛的一些显示、FPGA通信，用一下TFT屏幕、按键、DSP什么的都可以，更深入的也懒得深挖，当个没什么资料的RV单片机绝对没什么问题。 —— 2025.4.7 凌晨 于宿舍
 
 ## 📖 简介  
-**描述**：使用Gowin（高云）138K第三方开发板移植 Tang Mega 138K Pro `ae350_demo`工程  
+**描述**：使用Gowin（高云）138K第三方开发板移植 Tang Mega 138K Pro `ae350_demo`工程 
+ 
 **参考**：  
 - [RiscV AE350 SOC](https://www.gowinsemi.com.cn/prodshow_view.aspx?TypeId=70&Id=189&FId=t31:70:31)  
 - [RiscV_AE350_SOC_V1.3](https://www.gowinsemi.com.cn/prodshow_view.aspx?TypeId=70&Id=189&FId=t31:70:31)  
@@ -50,9 +51,10 @@
    > **注意**：如果你只是想进行FLASH烧录而不是调试下载，可跳过此步骤和RDS的报错，直接进行闪存烧录。  
 
    - **无法识别AE350的驱动截图**：
+
      <img src="Pic/FTDI.png" width="300"> 
 
-    > 上图显示驱动是无法识别AE350的。  
+     > 上图显示驱动是无法识别AE350的。  
 
 
    - **解决方案**：
@@ -60,13 +62,16 @@
       
    - **操作示例**：
 
-     - 更改驱动：  
+     - 更改驱动：
+
        <img src="Pic/Install.png" width="300"> 
 
-     - 更改后驱动显示：  
+     - 更改后驱动显示：
+
        <img src="Pic/GWU2X.png" width="300"> 
       
      - 官方文档：
+
        <img src="Pic/winusb.png" width="300">  
 
 
@@ -78,15 +83,17 @@
      ```
 
      - 命令操作示例：
+     
        <img src="Pic/JTAG.png" width="300">
 
      - 正确输出日志：
+
        <img src="Pic/log.png" width="300">
 
 4. **FPGA下载配置**  
    - 若下载`.fs `失败：  
      - 取消勾选 `using ft2xx driver`，选择WINUSB驱动  
-     <img src="Pic/Downoad_Fs.png" width="300">  
+       <img src="Pic/Downoad_Fs.png" width="300">  
 
 
 ## 🎮 测试外设  

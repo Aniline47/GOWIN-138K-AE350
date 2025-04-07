@@ -5,7 +5,7 @@
 
 ## 📖 简介  
 **描述**：使用Gowin（高云）138K第三方开发板移植 Tang Mega 138K Pro `ae350_demo`工程 
- 
+
 **参考**：  
 - [RiscV AE350 SOC](https://www.gowinsemi.com.cn/prodshow_view.aspx?TypeId=70&Id=189&FId=t31:70:31)  
 - [RiscV_AE350_SOC_V1.3](https://www.gowinsemi.com.cn/prodshow_view.aspx?TypeId=70&Id=189&FId=t31:70:31)  
@@ -45,8 +45,8 @@
 
 3. **JTAG驱动配置**  
    - **问题**：无法识别AE350核心  
-     - **问题链接**：[TangMega138K RiscV硬核AE350下载程序遇到的问题](https://maixhub.com/discussion/100631)  
-     - **原因**：JTAG驱动问题，如图驱动无法识别AE350。  
+     - 问题链接：[TangMega138K RiscV硬核AE350下载程序遇到的问题](https://maixhub.com/discussion/100631)  
+     - 原因：JTAG驱动问题，如图驱动无法识别AE350。  
 
    > **注意**：如果你只是想进行FLASH烧录而不是调试下载，可跳过此步骤和RDS的报错，直接进行闪存烧录。  
 
@@ -92,7 +92,8 @@
 
 4. **FPGA下载配置**  
    - 若下载`.fs `失败：  
-     - 取消勾选 `using ft2xx driver`，选择WINUSB驱动  
+     - 取消勾选 `using ft2xx driver`，选择WINUSB驱动 
+      
        <img src="Pic/Downoad_Fs.png" width="300">  
 
 

@@ -53,8 +53,9 @@
 
 
   - **解决方案**：
-    - 步骤1：使用[UsbDriverTool](https://visualgdb.com/UsbDriverTool/)将FTDI驱动改为 **libusb(WINUSB)**  
-    - 操作示例：
+    - 使用[UsbDriverTool](https://visualgdb.com/UsbDriverTool/)将FTDI驱动改为 **libusb(WINUSB)**  
+    
+  - **操作示例**：
 
     - 更改驱动：  
     <img src="Pic/Install.png" width="300"> 

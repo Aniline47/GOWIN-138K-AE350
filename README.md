@@ -7,8 +7,8 @@
 **描述**：使用Gowin（高云）138K第三方开发板移植 Tang Mega 138K Pro `ae350_demo`工程 
 
 **参考**：  
-- [RiscV AE350 SOC](https://www.gowinsemi.com.cn/prodshow_view.aspx?TypeId=70&Id=189&FId=t31:70:31)  
-- [RiscV_AE350_SOC_V1.3](https://www.gowinsemi.com.cn/prodshow_view.aspx?TypeId=70&Id=189&FId=t31:70:31)  
+- [RiscV AE350 SOC](https://www.gowinsemi.com.cn/software/6)  
+- [RiscV_AE350_SOC_V1.3](https://www.gowinsemi.com.cn/software/6)  
 
 ## 🎫 板卡  
 | **板卡型号** | **描述** | **链接** |  
